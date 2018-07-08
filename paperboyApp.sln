@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paperboyApp", "paperboyApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalModels", "ExternalModels\ExternalModels.csproj", "{D4AF9233-F9DB-48C9-B7D9-66BF9A19342E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSandbox", "ConsoleSandbox\ConsoleSandbox.csproj", "{1FF02AD4-2712-4F27-A387-0F8F9DDEE4D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{D4AF9233-F9DB-48C9-B7D9-66BF9A19342E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4AF9233-F9DB-48C9-B7D9-66BF9A19342E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4AF9233-F9DB-48C9-B7D9-66BF9A19342E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF02AD4-2712-4F27-A387-0F8F9DDEE4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF02AD4-2712-4F27-A387-0F8F9DDEE4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF02AD4-2712-4F27-A387-0F8F9DDEE4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF02AD4-2712-4F27-A387-0F8F9DDEE4D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

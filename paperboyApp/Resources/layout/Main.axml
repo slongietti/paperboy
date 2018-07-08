@@ -3,5 +3,41 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tblPaperDays">
+        <TableRow
+            android:id="@+id/trTitle">
+            <TextView
+                android:text="Download the Charlotte Observer"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="1"
+                android:id="@+id/lblInstruction" />
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:text="2 Days Ago"
+        android:id="@+id/btn2DaysAgo"
+        android:layout_width="384.5dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Yesterday"
+        android:id="@+id/btn1DayAgo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Today"
+        android:id="@+id/btnToday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<!--<ImageView
+        android:src="@android:drawable/VolareLogo.png"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />-->
 </LinearLayout>
